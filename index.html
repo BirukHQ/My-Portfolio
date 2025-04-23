@@ -1,0 +1,58 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Welcome | Portfolio</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+  <section class="hero">
+    <div class="hero-overlay"></div>
+    <div class="hero-content fade-in">
+      <h1>Welcome to My Portfolio</h1>
+      <p>Front-End Developer & Technical Writer</p>
+      <button id="enterBtn">Enter Portfolio</button>
+    </div>
+  </section>
+
+  <main id="portfolio" class="hidden">
+    <nav>
+      <a href="#projects">Front-End Projects</a>
+      <a href="#writing">Technical Writing</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="projects" class="fade-in">
+      <h2>Front-End Projects</h2>
+      <div class="project">
+        <h3>Simple E-commerce site</h3>
+        <p>A simple E-commerce site built with HTML, CSS, and JavaScript.</p>
+         <a href="https://github.com/BirukHQ/ELFGN-Ecommerce-Front-End.git">GitHub Repo</a>
+      </div>
+    </section>
+
+    <section id="writing" class="fade-in">
+      <h2>Technical Writing</h2>
+      <div class="writing">
+        <h3>A simple light novel</h3>
+        <p>Iam having a simple upcoming light novel.</p>
+        <a href="#">View Novel</a>
+      </div>
+    </section>
+
+    <section id="contact" class="fade-in">
+      <h2>Contact</h2>
+      <p>Email me at <a href="mailto:your.email@example.com">biruktilahun02@gmail.com</a></p>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Biruk Tilahun | Front-End Developer & Technical Writer</p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
